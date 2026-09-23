@@ -1,0 +1,221 @@
+[
+  {
+    "id": "tomato_early_blight",
+    "plant": "Tomato",
+    "disease": "Early Blight",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "A common fungal disease caused by Alternaria solani affecting leaves, stems, and fruits of tomatoes.",
+    "symptoms": [
+      "Dark brown to black spots with concentric rings (target-like pattern) on older leaves.",
+      "Yellow halos surrounding leaf lesions.",
+      "Premature leaf drop leading to sunscald on fruits."
+    ],
+    "generalInformation": "Thrives in warm, humid weather and spreads via rain splashes and wind.",
+    "prevention": [
+      "Ensure proper plant spacing for good air circulation.",
+      "Water at the base of the plant using drip irrigation to keep foliage dry.",
+      "Apply copper-based or bio-fungicide sprays upon early detection.",
+      "Practice 2-3 year crop rotation with non-solanaceous crops."
+    ]
+  },
+  {
+    "id": "tomato_late_blight",
+    "plant": "Tomato",
+    "disease": "Late Blight",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "A devastating water mold infection caused by Phytophthora infestans that can quickly destroy entire tomato crops.",
+    "symptoms": [
+      "Large, irregularly shaped water-soaked lesions on leaves and stems.",
+      "White fungal fuzzy growth on leaf undersides in high humidity.",
+      "Rapidly turning dark brown and collapsing plant tissue."
+    ],
+    "generalInformation": "The same pathogen that caused the Irish Potato Famine; spreads rapidly during cool, wet conditions.",
+    "prevention": [
+      "Destroy and discard infected plant debris immediately (do not compost).",
+      "Avoid overhead watering and minimize leaf wetness duration.",
+      "Select certified disease-free transplants and blight-resistant cultivars."
+    ]
+  },
+  {
+    "id": "tomato_healthy",
+    "plant": "Tomato",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Vibrant, healthy tomato foliage with optimal chlorophyll levels and no visible pathogen damage.",
+    "symptoms": [
+      "Deep green uniform leaf coloration.",
+      "Firm, upright leaf stems without spots or discoloration.",
+      "Even leaf margins and active healthy growth."
+    ],
+    "generalInformation": "Healthy tomato foliage supports strong photosynthetic activity for high fruit yield.",
+    "prevention": [
+      "Maintain consistent soil moisture and balanced N-P-K fertilization.",
+      "Scout foliage weekly for early signs of pests or disease."
+    ]
+  },
+  {
+    "id": "potato_early_blight",
+    "plant": "Potato",
+    "disease": "Early Blight",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Fungal infection caused by Alternaria solani causing target-spot lesions on potato canopies.",
+    "symptoms": [
+      "Small dark spots enlarging into concentric circular lesions.",
+      "Lower canopy foliage yellowing and dying early.",
+      "Dark sunken lesions on potato tuber skin."
+    ],
+    "generalInformation": "Often affects plants under stress or lacking nitrogen and potassium.",
+    "prevention": [
+      "Maintain optimal crop nutrition and irrigation to avoid plant stress.",
+      "Apply protective fungicides prior to canopy closure in high risk seasons.",
+      "Harvest tubers after vines are completely dead to minimize skin infection."
+    ]
+  },
+  {
+    "id": "potato_late_blight",
+    "plant": "Potato",
+    "disease": "Late Blight",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "Highly contagious disease caused by Phytophthora infestans capable of rotting foliage and tubers.",
+    "symptoms": [
+      "Pale green to dark water-soaked spots rapidly turning purplish-brown.",
+      "White downy mildew on the underside of leaves in humid mornings.",
+      "Tubers with dry brown granular rot beneath skin."
+    ],
+    "generalInformation": "Spread by windborne sporangia across several miles in damp conditions.",
+    "prevention": [
+      "Plant certified disease-free seed tubers.",
+      "Hill soil well over developing tubers to prevent spores washing down.",
+      "Eliminate cull piles and volunteer potato plants near fields."
+    ]
+  },
+  {
+    "id": "potato_healthy",
+    "plant": "Potato",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Vigorous potato foliage exhibiting strong vegetative development.",
+    "symptoms": [
+      "Lush green compound leaves.",
+      "No spotting, wilting, or stem lesions.",
+      "Uniform canopy density."
+    ],
+    "generalInformation": "Indicates optimal nutrient balance and favorable growing environment.",
+    "prevention": [
+      "Maintain adequate soil drainage and regular monitoring routine."
+    ]
+  },
+  {
+    "id": "corn_common_rust",
+    "plant": "Corn (Maize)",
+    "disease": "Common Rust",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Airborne fungal disease caused by Puccinia sorghi producing rust-colored pustules on corn leaves.",
+    "symptoms": [
+      "Oval to elongate cinnamon-brown pustules scattered across both leaf surfaces.",
+      "Pustules rupture epidermal tissue releasing reddish-brown powdery spores.",
+      "Chlorosis and premature leaf death in severe cases."
+    ],
+    "generalInformation": "Fugitive spores blow northward each spring; favored by moderate temperatures (16–25°C) and high humidity.",
+    "prevention": [
+      "Plant rust-resistant corn hybrid varieties.",
+      "Foliar fungicides may be applied if rust reaches upper leaves before tasseling."
+    ]
+  },
+  {
+    "id": "corn_healthy",
+    "plant": "Corn (Maize)",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Healthy corn leaves with clear parallel venation and strong photosynthetic vigor.",
+    "symptoms": [
+      "Clean linear blades without pustules or lesions.",
+      "Rich deep green color along midrib and margins.",
+      "Sturdy stalk connection and clean leaf collars."
+    ],
+    "generalInformation": "Healthy corn canopies maximize solar interception for grain fill.",
+    "prevention": [
+      "Practice balanced nitrogen management and weed control."
+    ]
+  },
+  {
+    "id": "apple_scab",
+    "plant": "Apple",
+    "disease": "Apple Scab",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Fungal infection by Venturia inaequalis causing velvety olive-green to black spots on apple foliage and fruit.",
+    "symptoms": [
+      "Dull olive-green velvety lesions with feathery borders on young leaves.",
+      "Leaves become distorted, puckered, and turn yellow before dropping.",
+      "Scabby, cracked lesions on apple skin."
+    ],
+    "generalInformation": "Overwinters in fallen leaves and releases ascospores during spring rain events.",
+    "prevention": [
+      "Rake and destroy or compost fallen autumn leaves thoroughly.",
+      "Prune trees annually to enhance canopy sunlight and air drying.",
+      "Use preventive organic sprays or resistant apple varieties like Enterprise or Liberty."
+    ]
+  },
+  {
+    "id": "apple_healthy",
+    "plant": "Apple",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Healthy apple tree foliage without blotches, curling, or mildew.",
+    "symptoms": [
+      "Glossy, emerald-green serrated leaves.",
+      "Smooth leaf underside with no fungal coating.",
+      "Vigorous shoot extension."
+    ],
+    "generalInformation": "Reflects excellent orchard sanitation and canopy management.",
+    "prevention": [
+      "Maintain regular pruning and seasonal dormant oil treatments."
+    ]
+  },
+  {
+    "id": "grape_black_rot",
+    "plant": "Grape",
+    "disease": "Black Rot",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "Fungal disease caused by Guignardia bidwellii affecting all green parts of grapevines.",
+    "symptoms": [
+      "Small reddish-brown circular spots on leaves with tiny black pycnidia dots.",
+      "Infected berries shrivel into hard, black, wrinkled mummies.",
+      "Dark sunken cankers on green shoots."
+    ],
+    "generalInformation": "One of the most destructive grape diseases in warm, wet viticultural regions.",
+    "prevention": [
+      "Remove and destroy all mummified berries during winter pruning.",
+      "Open up the vine canopy with leaf pulling to reduce humidity.",
+      "Apply protective bio-fungicides from early bud break through fruit set."
+    ]
+  },
+  {
+    "id": "grape_healthy",
+    "plant": "Grape",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Vibrant grapevine leaves and clean canes with high photosynthetic efficiency.",
+    "symptoms": [
+      "Broad, distinctively lobed leaves with bright green luster.",
+      "Clean leaf veins and supple petioles.",
+      "Unblemished cluster development."
+    ],
+    "generalInformation": "Optimal canopy architecture supports premium berry ripening and sugar accumulation.",
+    "prevention": [
+      "Maintain regular canopy training and soil moisture control."
+    ]
+  }
+]
