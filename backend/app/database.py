@@ -5,7 +5,7 @@ from pathlib import Path
 from datetime import datetime
 from bson import ObjectId
 from motor.motor_asyncio import AsyncIOMotorClient
-from app.config import settings
+from app.config import BASE_DIR, settings
 
 logger = logging.getLogger("agros.database")
 
@@ -21,7 +21,7 @@ class Database:
         "diseases": {}
     }
     
-    _store_file: Path = settings.BASE_DIR / "data" / "local_store.json"
+    _store_file: Path = BASE_DIR / "data" / "local_store.json"
 
     def load_local_store(self):
         """Loads persistent user and prediction records from disk if available"""
