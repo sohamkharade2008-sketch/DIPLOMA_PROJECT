@@ -1,5 +1,230 @@
 [
   {
+    "id": "onion_purple_blotch",
+    "plant": "Onion",
+    "disease": "Purple Blotch",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Fungal disease caused by Alternaria porri characterized by purple-centered lesions on onion foliage and seed stalks.",
+    "symptoms": [
+      "Small, water-soaked lesions that turn brown to purplish with yellow halos.",
+      "Lesions enlarge and girdle leaves causing them to collapse and dry up.",
+      "Dark brown powdery fungal spores visible on leaf surfaces during humid mornings."
+    ],
+    "generalInformation": "Favored by warm temperatures (21–30°C) and prolonged leaf wetness or relative humidity above 80%.",
+    "prevention": [
+      "Maintain well-drained soil and avoid overhead sprinkler irrigation.",
+      "Ensure proper crop spacing to promote foliage aeration and rapid drying.",
+      "Apply protective copper or mancozeb-based fungicides during humid weather spells.",
+      "Practice 3-year crop rotation with non-allium crops."
+    ]
+  },
+  {
+    "id": "onion_downy_mildew",
+    "plant": "Onion",
+    "disease": "Downy Mildew",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "Destructive disease caused by Peronospora destructor that causes leaf dieback and stunted bulb development.",
+    "symptoms": [
+      "Pale green to yellowish oval patches on older foliage.",
+      "Fine violet-gray velvety fungal growth on infected leaf areas under damp conditions.",
+      "Infected leaves collapse, turn brown, and dry from the tips downward."
+    ],
+    "generalInformation": "Overwinters in infected onion bulbs and spreads quickly in cool (10–18°C), misty or humid climates.",
+    "prevention": [
+      "Plant certified disease-free onion sets and certified seeds.",
+      "Avoid planting in sheltered or poorly drained fields with restricted air flow.",
+      "Destroy and plow under crop residues immediately after harvest."
+    ]
+  },
+  {
+    "id": "onion_healthy",
+    "plant": "Onion",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Vibrant, upright tubular green foliage indicating robust bulb formation and nutrient balance.",
+    "symptoms": [
+      "Smooth, deep blue-green hollow leaf blades without blemishes.",
+      "Firm sheath attachment and clean neck tissue.",
+      "Strong erect growth habit."
+    ],
+    "generalInformation": "Optimal photosynthetic leaf area is essential for maximum bulb expansion and storage longevity.",
+    "prevention": [
+      "Provide consistent moisture through drip lines and balanced sulfur-potassium fertilization.",
+      "Conduct regular scouting for thrips and early leaf lesions."
+    ]
+  },
+  {
+    "id": "cauliflower_black_rot",
+    "plant": "Cauliflower",
+    "disease": "Black Rot",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "Bacterial disease caused by Xanthomonas campestris pv. campestris, considered one of the most damaging brassica diseases worldwide.",
+    "symptoms": [
+      "V-shaped yellow chlorotic lesions starting at leaf margins with base pointing toward midrib.",
+      "Leaf veins within chlorotic lesions turn distinctly black or dark brown.",
+      "Severe systemic infection causes premature leaf drop and curd discoloration."
+    ],
+    "generalInformation": "Bacterial pathogen enters leaves through hydathodes (marginal pores) and stomata during warm, humid rains.",
+    "prevention": [
+      "Use hot-water treated or certified disease-free seed.",
+      "Rotate out of brassicas/crucifers for at least 3 years.",
+      "Avoid handling or cultivating plants when foliage is wet."
+    ]
+  },
+  {
+    "id": "cauliflower_downy_mildew",
+    "plant": "Cauliflower",
+    "disease": "Downy Mildew",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Fungal-like oomycete infection caused by Hyaloperonospora parasitica affecting leaves and young curds.",
+    "symptoms": [
+      "Yellowish, angular chlorotic spots on the upper leaf surface.",
+      "Fluffy white to light gray fungal growth on the underside of leaves.",
+      "Curd surfaces may develop grayish-black internal vascular discoloration."
+    ],
+    "generalInformation": "Common in cool, damp seedbeds and overcast seasons; thrives in fog and heavy morning dew.",
+    "prevention": [
+      "Promote air movement by thinning seedlings and optimizing field spacing.",
+      "Water crops early in the morning so leaves dry quickly in the sun.",
+      "Apply preventive bio-fungicides during prolonged cool, foggy conditions."
+    ]
+  },
+  {
+    "id": "cauliflower_healthy",
+    "plant": "Cauliflower",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Robust, waxy blue-green brassica foliage supporting tight, healthy curd formation.",
+    "symptoms": [
+      "Broad, thick leaves with a healthy whitish bloom (cuticle wax).",
+      "No marginal yellowing or blackened vein architecture.",
+      "Vigorous central growth and clean petioles."
+    ],
+    "generalInformation": "Well-nourished cauliflower canopies shield developing heads from solar scorch.",
+    "prevention": [
+      "Maintain adequate soil boron and molybdenum levels alongside balanced NPK nutrition.",
+      "Ensure regular moisture retention with organic mulch."
+    ]
+  },
+  {
+    "id": "chrysanthemum_white_rust",
+    "plant": "Chrysanthemum",
+    "disease": "White Rust",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "Quarantine fungal pathogen caused by Puccinia horiana that damages decorative floriculture crops.",
+    "symptoms": [
+      "Pale green to yellow spots (dimples) up to 5mm wide on upper leaf surfaces.",
+      "Raised, waxy buff-to-white colored pustules (telia) on leaf undersides.",
+      "Leaves become necrotic, curl downward, and dry up completely in severe outbreaks."
+    ],
+    "generalInformation": "Spread by windborne basidiospores; requires 100% relative humidity and free moisture for spore germination.",
+    "prevention": [
+      "Purchase only certified disease-free stock cuttings.",
+      "Isolate new incoming plants in a quarantine area for 2–3 weeks.",
+      "Reduce greenhouse humidity below 75% with ventilation and bottom heat."
+    ]
+  },
+  {
+    "id": "chrysanthemum_septoria_leaf_spot",
+    "plant": "Chrysanthemum",
+    "disease": "Septoria Leaf Spot",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Fungal leaf spot caused by Septoria chrysanthemella resulting in progressive lower-leaf necrosis.",
+    "symptoms": [
+      "Circular dark brown to black spots with distinct margins on lower leaves.",
+      "Spots may coalesce into large dead necrotic patches.",
+      "Infected leaves turn yellow and drop prematurely, moving from base upwards."
+    ],
+    "generalInformation": "Fungal spores are splashed upward from soil and fallen leaf debris by rain or overhead watering.",
+    "prevention": [
+      "Strip and dispose of infected bottom leaves promptly.",
+      "Use drip irrigation to keep blossom and foliage dry.",
+      "Apply protective copper or chlorothalonil fungicides at the first sign of spotting."
+    ]
+  },
+  {
+    "id": "chrysanthemum_healthy",
+    "plant": "Chrysanthemum",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Lush, deeply lobed aromatic foliage with vibrant chlorophyll pigmentation.",
+    "symptoms": [
+      "Rich deep-green serrated leaves with supple texture.",
+      "Undersides completely free of raised pustules or fungal mycelium.",
+      "Strong lateral branching and healthy apical buds."
+    ],
+    "generalInformation": "Healthy chrysanthemum foliage provides the essential photosynthetic base for radiant floral blooms.",
+    "prevention": [
+      "Provide high light intensity and balanced feeding with iron and magnesium.",
+      "Maintain consistent airflow around dense floral canopies."
+    ]
+  },
+  {
+    "id": "cucumber_powdery_mildew",
+    "plant": "Cucumber",
+    "disease": "Powdery Mildew",
+    "status": "Diseased",
+    "severity": "Moderate",
+    "description": "Pervasive fungal infection caused by Podosphaera xanthii covering cucurbit foliage in a talcum-powder like coating.",
+    "symptoms": [
+      "White powdery circular spots on both leaf surfaces, petioles, and stems.",
+      "Spots expand rapidly to cover whole leaf blades with white talc-like spores.",
+      "Leaves turn chlorotic, senesce early, and leave fruit vulnerable to sunscald."
+    ],
+    "generalInformation": "Favored by high humidity, low light, and warm dry temperatures without requiring free liquid water.",
+    "prevention": [
+      "Select resistant or tolerant cucumber hybrid varieties.",
+      "Apply potassium bicarbonate, sulfur, or neem oil solutions at first notice.",
+      "Prune dense vine growth to improve sunlight penetration and air movement."
+    ]
+  },
+  {
+    "id": "cucumber_downy_mildew",
+    "plant": "Cucumber",
+    "disease": "Downy Mildew",
+    "status": "Diseased",
+    "severity": "High",
+    "description": "Rapidly destructive water mold caused by Pseudoperonospora cubensis causing scorched foliage appearance.",
+    "symptoms": [
+      "Angular, bright yellow spots bounded strictly by leaf veins on the upper surface.",
+      "Dark grayish-purple downy mold growth visible on the underside of corresponding spots.",
+      "Infected areas turn brown and necrotic quickly, creating a 'burned' canopy look."
+    ],
+    "generalInformation": "Known as 'cucurbit wildfire' due to how quickly it can destroy an entire field within days of wet weather.",
+    "prevention": [
+      "Plant early in the season or choose downy-mildew resistant cultivars.",
+      "Never use overhead irrigation; ensure leaves stay dry through the evening.",
+      "Apply preventive systemic fungicides ahead of wet forecasts."
+    ]
+  },
+  {
+    "id": "cucumber_healthy",
+    "plant": "Cucumber",
+    "disease": "Healthy",
+    "status": "Healthy",
+    "severity": "None",
+    "description": "Expansive, vibrant green palmate cucurbit leaves with strong vine vigor.",
+    "symptoms": [
+      "Large, uniformly green lobed leaves with crisp serrated margins.",
+      "Clean leaf surfaces free of powder or angular yellowing.",
+      "Active tendril development and continuous flower setting."
+    ],
+    "generalInformation": "Vigorous vine canopy maintains optimum carbohydrate production for crisp fruit development.",
+    "prevention": [
+      "Trellis vines vertically for maximum air circulation and easy monitoring.",
+      "Maintain steady soil moisture to prevent water stress."
+    ]
+  },
+  {
     "id": "tomato_early_blight",
     "plant": "Tomato",
     "disease": "Early Blight",
@@ -54,168 +279,6 @@
     "prevention": [
       "Maintain consistent soil moisture and balanced N-P-K fertilization.",
       "Scout foliage weekly for early signs of pests or disease."
-    ]
-  },
-  {
-    "id": "potato_early_blight",
-    "plant": "Potato",
-    "disease": "Early Blight",
-    "status": "Diseased",
-    "severity": "Moderate",
-    "description": "Fungal infection caused by Alternaria solani causing target-spot lesions on potato canopies.",
-    "symptoms": [
-      "Small dark spots enlarging into concentric circular lesions.",
-      "Lower canopy foliage yellowing and dying early.",
-      "Dark sunken lesions on potato tuber skin."
-    ],
-    "generalInformation": "Often affects plants under stress or lacking nitrogen and potassium.",
-    "prevention": [
-      "Maintain optimal crop nutrition and irrigation to avoid plant stress.",
-      "Apply protective fungicides prior to canopy closure in high risk seasons.",
-      "Harvest tubers after vines are completely dead to minimize skin infection."
-    ]
-  },
-  {
-    "id": "potato_late_blight",
-    "plant": "Potato",
-    "disease": "Late Blight",
-    "status": "Diseased",
-    "severity": "High",
-    "description": "Highly contagious disease caused by Phytophthora infestans capable of rotting foliage and tubers.",
-    "symptoms": [
-      "Pale green to dark water-soaked spots rapidly turning purplish-brown.",
-      "White downy mildew on the underside of leaves in humid mornings.",
-      "Tubers with dry brown granular rot beneath skin."
-    ],
-    "generalInformation": "Spread by windborne sporangia across several miles in damp conditions.",
-    "prevention": [
-      "Plant certified disease-free seed tubers.",
-      "Hill soil well over developing tubers to prevent spores washing down.",
-      "Eliminate cull piles and volunteer potato plants near fields."
-    ]
-  },
-  {
-    "id": "potato_healthy",
-    "plant": "Potato",
-    "disease": "Healthy",
-    "status": "Healthy",
-    "severity": "None",
-    "description": "Vigorous potato foliage exhibiting strong vegetative development.",
-    "symptoms": [
-      "Lush green compound leaves.",
-      "No spotting, wilting, or stem lesions.",
-      "Uniform canopy density."
-    ],
-    "generalInformation": "Indicates optimal nutrient balance and favorable growing environment.",
-    "prevention": [
-      "Maintain adequate soil drainage and regular monitoring routine."
-    ]
-  },
-  {
-    "id": "corn_common_rust",
-    "plant": "Corn (Maize)",
-    "disease": "Common Rust",
-    "status": "Diseased",
-    "severity": "Moderate",
-    "description": "Airborne fungal disease caused by Puccinia sorghi producing rust-colored pustules on corn leaves.",
-    "symptoms": [
-      "Oval to elongate cinnamon-brown pustules scattered across both leaf surfaces.",
-      "Pustules rupture epidermal tissue releasing reddish-brown powdery spores.",
-      "Chlorosis and premature leaf death in severe cases."
-    ],
-    "generalInformation": "Fugitive spores blow northward each spring; favored by moderate temperatures (16–25°C) and high humidity.",
-    "prevention": [
-      "Plant rust-resistant corn hybrid varieties.",
-      "Foliar fungicides may be applied if rust reaches upper leaves before tasseling."
-    ]
-  },
-  {
-    "id": "corn_healthy",
-    "plant": "Corn (Maize)",
-    "disease": "Healthy",
-    "status": "Healthy",
-    "severity": "None",
-    "description": "Healthy corn leaves with clear parallel venation and strong photosynthetic vigor.",
-    "symptoms": [
-      "Clean linear blades without pustules or lesions.",
-      "Rich deep green color along midrib and margins.",
-      "Sturdy stalk connection and clean leaf collars."
-    ],
-    "generalInformation": "Healthy corn canopies maximize solar interception for grain fill.",
-    "prevention": [
-      "Practice balanced nitrogen management and weed control."
-    ]
-  },
-  {
-    "id": "apple_scab",
-    "plant": "Apple",
-    "disease": "Apple Scab",
-    "status": "Diseased",
-    "severity": "Moderate",
-    "description": "Fungal infection by Venturia inaequalis causing velvety olive-green to black spots on apple foliage and fruit.",
-    "symptoms": [
-      "Dull olive-green velvety lesions with feathery borders on young leaves.",
-      "Leaves become distorted, puckered, and turn yellow before dropping.",
-      "Scabby, cracked lesions on apple skin."
-    ],
-    "generalInformation": "Overwinters in fallen leaves and releases ascospores during spring rain events.",
-    "prevention": [
-      "Rake and destroy or compost fallen autumn leaves thoroughly.",
-      "Prune trees annually to enhance canopy sunlight and air drying.",
-      "Use preventive organic sprays or resistant apple varieties like Enterprise or Liberty."
-    ]
-  },
-  {
-    "id": "apple_healthy",
-    "plant": "Apple",
-    "disease": "Healthy",
-    "status": "Healthy",
-    "severity": "None",
-    "description": "Healthy apple tree foliage without blotches, curling, or mildew.",
-    "symptoms": [
-      "Glossy, emerald-green serrated leaves.",
-      "Smooth leaf underside with no fungal coating.",
-      "Vigorous shoot extension."
-    ],
-    "generalInformation": "Reflects excellent orchard sanitation and canopy management.",
-    "prevention": [
-      "Maintain regular pruning and seasonal dormant oil treatments."
-    ]
-  },
-  {
-    "id": "grape_black_rot",
-    "plant": "Grape",
-    "disease": "Black Rot",
-    "status": "Diseased",
-    "severity": "High",
-    "description": "Fungal disease caused by Guignardia bidwellii affecting all green parts of grapevines.",
-    "symptoms": [
-      "Small reddish-brown circular spots on leaves with tiny black pycnidia dots.",
-      "Infected berries shrivel into hard, black, wrinkled mummies.",
-      "Dark sunken cankers on green shoots."
-    ],
-    "generalInformation": "One of the most destructive grape diseases in warm, wet viticultural regions.",
-    "prevention": [
-      "Remove and destroy all mummified berries during winter pruning.",
-      "Open up the vine canopy with leaf pulling to reduce humidity.",
-      "Apply protective bio-fungicides from early bud break through fruit set."
-    ]
-  },
-  {
-    "id": "grape_healthy",
-    "plant": "Grape",
-    "disease": "Healthy",
-    "status": "Healthy",
-    "severity": "None",
-    "description": "Vibrant grapevine leaves and clean canes with high photosynthetic efficiency.",
-    "symptoms": [
-      "Broad, distinctively lobed leaves with bright green luster.",
-      "Clean leaf veins and supple petioles.",
-      "Unblemished cluster development."
-    ],
-    "generalInformation": "Optimal canopy architecture supports premium berry ripening and sugar accumulation.",
-    "prevention": [
-      "Maintain regular canopy training and soil moisture control."
     ]
   }
 ]

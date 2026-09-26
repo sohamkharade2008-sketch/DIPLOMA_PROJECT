@@ -16,11 +16,11 @@ import {
 
 const HomePage = () => {
   const supportedCrops = [
+    { name: 'Onion', diseases: 'Purple Blotch, Downy Mildew, Healthy', image: 'https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?auto=format&fit=crop&w=400&q=80' },
+    { name: 'Cauliflower', diseases: 'Black Rot, Downy Mildew, Healthy', image: 'https://images.unsplash.com/photo-1568584711075-3d021a7c3ca3?auto=format&fit=crop&w=400&q=80' },
+    { name: 'Chrysanthemum', diseases: 'White Rust, Septoria Leaf Spot, Healthy', image: 'https://images.unsplash.com/photo-1572454591674-2739f48d6dd4?auto=format&fit=crop&w=400&q=80' },
+    { name: 'Cucumber', diseases: 'Powdery Mildew, Downy Mildew, Healthy', image: 'https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?auto=format&fit=crop&w=400&q=80' },
     { name: 'Tomato', diseases: 'Early Blight, Late Blight, Healthy', image: 'https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&w=400&q=80' },
-    { name: 'Potato', diseases: 'Early Blight, Late Blight, Healthy', image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=400&q=80' },
-    { name: 'Corn (Maize)', diseases: 'Common Rust, Healthy Foliage', image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=400&q=80' },
-    { name: 'Apple', diseases: 'Apple Scab, Black Rot, Healthy', image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=400&q=80' },
-    { name: 'Grape', diseases: 'Black Rot, Leaf Spot, Healthy', image: 'https://images.unsplash.com/photo-1596363505729-4190a9506133?auto=format&fit=crop&w=400&q=80' },
   ];
 
   const features = [

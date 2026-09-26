@@ -55,6 +55,7 @@ async def register(req: UserRegisterRequest):
             "createdAt": datetime.now(timezone.utc)
         }
         db._memory_store["users"][user_id] = user_doc
+        db.save_local_store()
 
     # Generate token
     token = create_access_token({"sub": user_id, "email": email_clean, "name": req.name})

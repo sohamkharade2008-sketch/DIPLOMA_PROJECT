@@ -126,11 +126,11 @@ const HistoryPage = () => {
               className="px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-agro-500"
             >
               <option value="all">All Crops</option>
+              <option value="Onion">Onion</option>
+              <option value="Cauliflower">Cauliflower</option>
+              <option value="Chrysanthemum">Chrysanthemum</option>
+              <option value="Cucumber">Cucumber</option>
               <option value="Tomato">Tomato</option>
-              <option value="Potato">Potato</option>
-              <option value="Corn">Corn (Maize)</option>
-              <option value="Apple">Apple</option>
-              <option value="Grape">Grape</option>
             </select>
 
             {/* Status Dropdown */}

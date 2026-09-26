@@ -54,7 +54,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold text-sm mb-3 font-display">Supported Crops</h3>
             <div className="flex flex-wrap gap-1.5">
-              {['Tomato', 'Potato', 'Corn', 'Apple', 'Grape', 'Bell Pepper', 'Strawberry'].map((crop) => (
+              {['Onion', 'Cauliflower', 'Chrysanthemum', 'Cucumber', 'Tomato'].map((crop) => (
                 <span
                   key={crop}
                   className="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-800 text-slate-300 border border-slate-700/60"
